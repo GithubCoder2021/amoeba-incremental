@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Amoebacremental</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" >
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+  <h1>Amoeba Incremental</h1>
+  <button onclick="tab('main')">Main</button>
+<button onclick="tab('options')">Options</button>
+<button onclick="tab('achievements')">Achievements</button>
+<button onclick="tab('infinity')"><span id="goInfinity">???</span></button>
+  <div id='main'>
+   <h2>You have 2<sup><span id="exponent">game.exponent</span></sup>  Amoeba</h2>
+   <h4>That's equal to <span id="equal">1</span> amoeba</h4>
+   <h3>Your amoebas are doubling  <span id="division">game.doublibg</span> time(s) every second</h3><button onclick="buyGrowth()">Make Amoebas multiply faster Cost: Exponent of <span id="growthCost">game.divisionCost</span></button>
+  </div>
+  
+<div id='options'>
+	<button onclick="save()" class="options">Save</button>
+	<button onclick="resetGame()" class="options">RESET</button>
+ </div>
+<div id="infinity">
+  <div id="infReqFalse">
+ 	<h2>Reach 2<sup>1024</sup></h2>
+  </div>
+  <div id="infReqTrue">
+   <h2>You have <span id="ip">game.infinityPoints</span> Infinity Points multiplying doubling by x<span id="ipMul">game.infMul</span></h2>
+ 	<button onclick="goInf()">Go Infinity for +<span id="infGain">game.infGain</span> Infinity Points</button>
+  </div>
+</div>
+<div id="achievements">
+ <h2>coming soon...</h2>
+</div>
+<a href="changelog.html">Changelog</a>
+  <script src="amoeba.js"></script>
+</body>
+</html>
