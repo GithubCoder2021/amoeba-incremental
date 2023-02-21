@@ -22,3 +22,14 @@ button{
   display: inline-block;
   font-size: 1.25em;
 }
+
+.options{
+  border: 5px solid #444444;
+  background-color: #999999;
+  text-align: center;
+  color: white;
+  padding: 8px 20px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.25em;
+}
