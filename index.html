@@ -7,10 +7,14 @@
 </head>
 <body>
   <h1>Amoeba Incremental</h1>
-  <button onclick="tab('main')">Main</button>
-<button onclick="tab('options')">Options</button>
-<button onclick="tab('achievements')">Achievements</button>
-<button onclick="tab('infinity')"><span id="goInfinity">???</span></button>
+  <div class="nav">
+   <ul>
+    <li><button onclick="tab('main')">Main</button></li>
+    <li><button onclick="tab('options')">Options</button></li>
+    <li><button onclick="tab('achievements')">Achievements</button></li>
+    <li><button onclick="tab('infinity')"><span id="goInfinity">???</span></button></li>
+   </ul>
+  </div>
   <div id='main'>
    <h2>You have 2<sup><span id="exponent">game.exponent</span></sup>  Amoeba</h2>
    <h4>That's equal to <span id="equal">1</span> amoeba</h4>
