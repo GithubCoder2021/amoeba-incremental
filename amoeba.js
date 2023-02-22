@@ -109,3 +109,9 @@ function goInf(){
 	game.doubling = 1 * (game.infinityPoints + 1);
   }
 }
+
+function toggleLightDark(){
+  var element = document.body;
+  element.classList.toggle("dark-mode");
+}
+   
