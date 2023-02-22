@@ -2,6 +2,10 @@ body { /* no . means element type */
   text-align: center; /* text-align centers text AND children */
   font-family: sans-serif;
 }
+.dark-mode{
+ background-color: #222222;
+ color: white;
+}
 button{
   border: 5px solid #444444;
   background-color: #999999;
@@ -41,4 +45,9 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+}
+
+
+a:link{
+ color: white;
 }
